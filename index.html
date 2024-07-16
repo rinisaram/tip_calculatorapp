@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="card">
+            <div class="left-half">
+                <p class="label space-mono-regular">Bill</p>
+                <div class="input-group">
+                    <span>$</span>
+                    <input type="text" placeholder="Enter bill amount" class="input-field">
+                </div>
+                <p class="label space-mono-regular">Select tip %</p>
+                <div class="tip-options">
+                    <button class="tip-button">5%</button>
+                    <button class="tip-button">10%</button>
+                    <button class="tip-button">15%</button>
+                </div>
+                <div class="tip-options">
+                    <button class="tip-button">20%</button>
+                    <button class="tip-button">25%</button>
+                    <button class="custom-button">Custom</button>
+                </div>
+                <div class="custom-input-group hidden">
+                    <span>%</span>
+                    <input type="text" placeholder="Enter custom tip" class="custom-input-field">
+                </div>
+                <p class="label space-mono-regular">No. of People</p>
+                <div class="input-group">
+                    <span>👥</span>
+                    <input type="text" placeholder="Enter number of people" class="input-field people-input">
+                </div>
+                <p class="error-message space-mono-regular hidden">Can't be zero</p>
+            </div>
+            <div class="right-half">
+                <div class="results">
+                    <p class="space-mono-bold">Tip Amount /person</p>
+                    <div class="value space-mono-regular">$0.00</div>
+                    <p class="space-mono-bold">Total /person</p>
+                    <div class="value space-mono-regular">$0.00</div>
+                </div>
+                <button class="reset-button space-mono-bold">RESET</button>
+            </div>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
