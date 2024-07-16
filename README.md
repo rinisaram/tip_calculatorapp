@@ -31,7 +31,7 @@ Reset: Click the "Reset" button to clear all inputs and start over.
 🧑‍💻 Installation
 
 -Clone the Repository:
-git clone https://github.com/your-username/tip-calculator.git
+git clone https://github.com/rinisaram/tip_calculatorapp.git
 -Navigate to the Project Directory:
 -Open index.html in Your Browser.
 
